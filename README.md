@@ -51,3 +51,8 @@ Paris, 2002.
 Keiichi SHIMA
 / IIJ Innovation Institute Inc.
 / WIDE project
+
+## Extension 
+The python scripts are formatted as specified in either "FormattingIP" from repository "FormattingPCAP", "FormattingWebserver" or "FormattingNetFlow" from repository "Validation". They can be run with python as such (where * is either IPv6, Netflow or Webserver):
+
+python Cryptopan*.py "input.dat" "output.dat"
